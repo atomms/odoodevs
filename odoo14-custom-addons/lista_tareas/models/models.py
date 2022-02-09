@@ -7,7 +7,9 @@ class lista_tareas(models.Model):
      _name = 'lista_tareas.lista_tareas'
      _description = 'lista_tareas.lista_tareas'
 
+     avatar = fields.Image()
      tarea = fields.Char()
+     fecha = fields.Date()
      prioridad = fields.Integer()
      urgente = fields.Boolean(compute="_value_urgente", store=True)
      realizada = fields.Boolean()
