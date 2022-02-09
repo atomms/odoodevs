@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # from odoo import http
-
-
+ 
 # class ListaTareas(http.Controller):
 #     @http.route('/lista_tareas/lista_tareas/', auth='public')
 #     def index(self, **kw):

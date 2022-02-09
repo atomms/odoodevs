@@ -49,7 +49,7 @@ class BibliotecaComic(models.Model):
     #Aqui indicamos que se use el atributo "nombre"
     _rec_name = 'nombre'
     #Atributo nombre
-    nombre = fields.Char('Titulo', required=True, index=True)
+    nombre = fields.Char('Título', required=False, index=True)
     #Atributo para seleccionar entre varios
     estado = fields.Selection(
         [('borrador', 'No disponible'),
