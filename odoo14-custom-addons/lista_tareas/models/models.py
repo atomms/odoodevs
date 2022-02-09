@@ -7,7 +7,7 @@ class lista_tareas(models.Model):
      _name = 'lista_tareas.lista_tareas'
      _description = 'lista_tareas.lista_tareas'
 
-     avatar = fields.Image()
+     avatar = fields.Image('Imagen tarea',max_width=100,max_heigth=100)
      tarea = fields.Char()
      fecha = fields.Date()
      prioridad = fields.Integer()
