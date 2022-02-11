@@ -12,6 +12,8 @@ class lista_tareas(models.Model):
      urgente = fields.Boolean(compute="_value_urgente", store=True)
      realizada = fields.Boolean()
      descripcion = fields.Text()
+     avatar = fields.Image('Imagen tarea',max_width=50,max_heigth=50)
+     fecha = fields.Date()
 #
      @api.depends('prioridad')
      def _value_urgente(self):
