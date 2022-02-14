@@ -1,0 +1,12 @@
+        <group>
+          <field name="tarea"/>
+          <field name="prioridad"/>
+          <field name="urgente"/>
+        </group>
+        <group>
+          <field name="realizada"/>
+          <field name="fecha"/>
+        </group>
+        <group>
+          <field name="avatar" widget="image" class="oe_avatar"/>
+        </group>
